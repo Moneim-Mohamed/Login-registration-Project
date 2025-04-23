@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>register</title>
+
+    <!--** Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--** Bootstrap -->
+    <link rel="stylesheet" href="./Assets/Css/bootstrap.min.css" />
+
+    <!--** Font Awesome -->
+    <link rel="stylesheet" href="./Assets/Css/all.min.css" />
+
+    <!--** Main CSS -->
+    <link rel="stylesheet" href="./Assets/Css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="section">
+        <div class="container my-5">
+          <div class="login p-5 mx-auto w-75">
+            <h1>Smart Login System</h1>
+            <form id="signupForm">
+              <input
+                type="text"
+                class="form-control my-3 text-white"
+                placeholder="Enter Your Name"
+                id="name"
+                name="name"
+              />
+              <input
+                type="email"
+                class="form-control my-3 text-white"
+                placeholder="Enter Your Email"
+                id="email"
+                name="email"
+              />
+
+              <input
+                type="password"
+                class="form-control my-3 text-white"
+                placeholder="Enter Password"
+                id="password"
+                name="password"
+              />
+
+              <p id="message" class="text-center"></p>
+              <button type="button" class="btn mb-4 sign">Sign Up</button>
+            </form>
+            <p class="text-white paragraph">
+              Don’t have an account?
+              <a href="./login.html" class="text-white link">Sign in</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./Js/bootstrap.bundle.min.js"></script>
+    <script src="./Js/index.js"></script>
+  </body>
+</html>

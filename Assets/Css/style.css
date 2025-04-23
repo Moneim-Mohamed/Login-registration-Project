@@ -1,0 +1,88 @@
+body {
+    font-family: "Titillium Web", sans-serif;
+    background-color: #24353f;
+    box-sizing: border-box;
+}
+
+.section {
+    .login {
+        text-align: center;
+        box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+        h1 {
+            font-size: 40px;
+            font-weight: 500;
+            color: #17a2b8;
+            margin-bottom: 30px;
+        }
+
+        input {
+            background-color: transparent;
+            color: #fff !important;
+            font-size: 18px;
+
+            &:focus {
+                background-color: transparent;
+                border: 1px solid #80bdff;
+                box-shadow: none;
+            }
+
+            &::placeholder {
+                color: #b6b6b6;
+                font-size: 14px;
+            }
+        }
+
+        .btn {
+            color: #17a2b8;
+            border: 1px solid #17a2b8;
+            width: 100%;
+            font-weight: 500;
+
+            &:hover {
+                background-color: #17a2b8;
+                color: white;
+            }
+        }
+
+        .paragraph {
+            font-size: 16px;
+
+            .link {
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+
+}
+
+.home {
+    .navbar {
+        background-color: #24353f !important;
+        box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+        padding-block: 8px !important;
+        padding-inline: 16px !important;
+
+
+        .navbar-brand {
+            color: #fff;
+            font-size: 22px;
+            font-weight: 400;
+        }
+    }
+
+    .welcome {
+        box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+        padding-inline: 48px;
+        padding-block: 48px;
+        color: #17A2B8;
+        font-size: 40px;
+        font-weight: 500;
+        text-align: center;
+    }
+}

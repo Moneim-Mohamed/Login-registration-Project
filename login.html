@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login me</title>
+
+    <!--** Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--** Bootstrap -->
+    <link rel="stylesheet" href="./Assets/Css/bootstrap.min.css" />
+
+    <!--** Font Awesome -->
+    <link rel="stylesheet" href="./Assets/Css/all.min.css" />
+
+    <!--** Main CSS -->
+    <link rel="stylesheet" href="./Assets/Css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="section">
+        <div class="container my-5">
+          <div class="login p-5 mx-auto w-75">
+            <h1>Smart Login System</h1>
+            <form id="loginForm">
+              <input
+                type="email"
+                class="form-control my-3 text-white"
+                placeholder="Enter Your Email"
+                id="emailInput"
+              />
+              <input
+                type="password"
+                class="form-control my-3 text-white"
+                placeholder="Enter Your Password"
+                id="passwordInput"
+              />
+              <p id="message" class="text-danger text-center"></p>
+
+              <button type="button" class="btn mb-4" id="btnLogin">
+                Login
+              </button>
+            </form>
+            <p class="text-white paragraph">
+              Don’t have an account?
+              <a href="./register.html" class="text-white link sign">Sign Up</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./Js/bootstrap.bundle.min.js"></script>
+    <script src="./Js/index.js"></script>
+  </body>
+</html>
