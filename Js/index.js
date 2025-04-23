@@ -115,7 +115,7 @@ btnLogin.addEventListener("click", function () {
     ) {
       loginSuccess = true;
       localStorage.setItem("currentUser", JSON.stringify(arrayList[i]));
-      window.location.href = "./Home.html"; 
+      window.location.href = "./index.html"; 
       break;
     }
   }
